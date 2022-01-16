@@ -264,13 +264,16 @@
         text-align: center;
         width: 100%;
     }
+    .text-hightlight{
+        color: var(--button-bg);
+    }
     .creative-content{
         display: flex;
-        max-width: 1155px;
+        max-width: 850px;
         justify-content: center;
         align-items: center;
         flex-flow: row wrap;
-        column-gap: 55px;;
+        column-gap: 15px;
     }
     .creative-img{
         flex: 0 1 300px;
@@ -280,140 +283,267 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        animation: changing-image 15s steps(100) infinite;
+        animation: changing-image 30s steps(100) infinite;
     }
     .creative-text{
         flex: 0 1 500px;
         padding: 1rem ;
     }
     .creative-text p{
-        font-size: 1.8em;
+        font-size: 1.6em;
+        min-height: 5rem;
+        text-align: center;
     }
-    .text-hightlight{
-        color: var(--button-bg);
+    .creative-text p::after{
+        content: "";
+        animation: changing-text 30s steps(100) infinite;
     }
+    /* auto text changing in creative section */
+    @keyframes changing-text {
+        0%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .03;
+        }
+        2.5%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .5;
+        }
+        5%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: 1;
+        }
+        15%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: 1;
+        }
+        17.5%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .5;
+        }
+        20%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .03;
+        }
+        21%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .03;
+        }
+        23.5%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .5;
+        }
+        25%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: 1;
+        }
+        35%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: 1;
+        }
+        37.5%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .5;
+        }
+        40%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .03;
+        }
+        41%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .03;
+        }
+        43.5%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .5;
+        }
+        45%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: 1;
+        }
+        55%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: 1;
+        }
+        57.5%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .5;
+        }
+        60%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .03;
+        }
+        61%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .03;
+        }
+        63.5%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .5;
+        }
+        65%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: 1;
+        }
+        75%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: 1;
+        }
+        77.5%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .5;
+        }
+        80%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .03;
+        }
+        81%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .03;
+        }
+        83.5%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .5;
+        }
+        85%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: 1;
+        }
+        95%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: 1;
+        }
+        97.5%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .5;
+        }
+        100%{
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            opacity: .03;
+        }
+    }
+
 
     /*auto image changing in creative section */
     @keyframes changing-image {
         0%{
-            background-image: url("images/action.png");
-            opacity: .1;
+            background-image: url("customer/person1.jpg");
+            opacity: 0.03;
         }
         2.5%{
-            background-image: url("images/action.png");
+            background-image: url("customer/person1.jpg");
             opacity: .5;
         }
         5%{
-            background-image: url("images/action.png");
+            background-image: url("customer/person1.jpg");
             opacity: 1;
         }
         15%{
-            background-image: url("images/action.png");
+            background-image: url("customer/person1.jpg");
             opacity: 1;
         }
         17.5%{
-            background-image: url("images/action.png");
+            background-image: url("customer/person1.jpg");
             opacity: .5;
         }
         20%{
-            background-image: url("images/action.png");
-            opacity: .1;
+            background-image: url("customer/person1.jpg");
+            opacity: 0.03;
         }
         21%{
-            background-image: url("images/airpod.png");
-            opacity: .1;
+            background-image: url("customer/person2.jpg");
+            opacity: 0.03;
         }
         23.5%{
-            background-image: url("images/airpod.png");
+            background-image: url("customer/person2.jpg");
             opacity: .5;
         }
         25%{
-            background-image: url("images/airpod.png");
+            background-image: url("customer/person2.jpg");
             opacity: 1;
         }
         35%{
-            background-image: url("images/airpod.png");
+            background-image: url("customer/person2.jpg");
             opacity: 1;
         }
         37.5%{
-            background-image: url("images/airpod.png");
+            background-image: url("customer/person2.jpg");
             opacity: .5;
         }
         40%{
-            background-image: url("images/airpod.png");
-            opacity: .1;
+            background-image: url("customer/person2.jpg");
+            opacity: 0.03;
         }
         41%{
-            background-image: url("images/drone.png");
-            opacity: .1;
+            background-image: url("customer/person-2.png");
+            opacity: 0.03;
         }
         43.5%{
-            background-image: url("images/drone.png");
+            background-image: url("customer/person-2.png");
             opacity: .5;
         }
         45%{
-            background-image: url("images/drone.png");
+            background-image: url("customer/person-2.png");
             opacity: 1;
         }
         55%{
-            background-image: url("images/drone.png");
+            background-image: url("customer/person-2.png");
             opacity: 1;
         }
         57.5%{
-            background-image: url("images/drone.png");
+            background-image: url("customer/person-2.png");
             opacity: .5;
         }
         60%{
-            background-image: url("images/drone.png");
-            opacity: .1;
+            background-image: url("customer/person-2.png");
+            opacity: 0.03;
         }
         61%{
-            background-image: url("images/gear.png");
-            opacity: .1;
+            background-image: url("customer/person-3.png");
+            opacity: 0.03;
         }
         63.5%{
-            background-image: url("images/gear.png");
+            background-image: url("customer/person-3.png");
             opacity: .5;
         }
         65%{
-            background-image: url("images/gear.png");
+            background-image: url("customer/person-3.png");
             opacity: 1;
         }
         75%{
-            background-image: url("images/gear.png");
+            background-image: url("customer/person-3.png");
             opacity: 1;
         }
         77.5%{
-            background-image: url("images/gear.png");
+            background-image: url("customer/person-3.png");
             opacity: .5;
         }
         80%{
-            background-image: url("images/gear.png");
-            opacity: .1;
+            background-image: url("customer/person-3.png");
+            opacity: 0.03;
         }
         81%{
-            background-image: url("images/tripod.png");
-            opacity: .1;
+            background-image: url("customer/person-4.png");
+            opacity: 0.03;
         }
         83.5%{
-            background-image: url("images/tripod.png");
+            background-image: url("customer/person-4.png");
             opacity: .5;
         }
         85%{
-            background-image: url("images/tripod.png");
+            background-image: url("customer/person-4.png");
             opacity: 1;
         }
         95%{
-            background-image: url("images/tripod.png");
+            background-image: url("customer/person-4.png");
             opacity: 1;
         }
         97.5%{
-            background-image: url("images/tripod.png");
+            background-image: url("customer/person-4.png");
             opacity: .5;
         }
         100%{
-            background-image: url("images/tripod.png");
-            opacity: .1;
+            background-image: url("customer/person-4.png");
+            opacity: 0.03;
         }
     }
 
