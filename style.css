@@ -293,11 +293,13 @@
         align-items: center;
         flex-flow: row wrap;
         column-gap: 15px;
+        border-radius: 1rem;
+        overflow: hidden;
     }
     .creative-img{
-        flex: 0 1 300px;
+        flex: 0 0 300px;
         height: 300px;
-        border-radius: 10px;
+        border-radius: 8rem;
         background-image: url("");
         background-repeat: no-repeat;
         background-position: center;
@@ -320,99 +322,99 @@
     /* auto text changing in creative section */
     @keyframes changing-text {
         0%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Customer satisfaction is the main concept of them.\"";
             opacity: .03;
         }
         2.5%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Customer satisfaction is the main concept of them.\"";
             opacity: .5;
         }
         5%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Customer satisfaction is the main concept of them.\"";
             opacity: 1;
         }
         15%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Customer satisfaction is the main concept of them.\"";
             opacity: 1;
         }
         17.5%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Customer satisfaction is the main concept of them.\"";
             opacity: .5;
         }
         20%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Customer satisfaction is the main concept of them.\"";
             opacity: .03;
         }
         21%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This website is one of the best website for buying a product. It is very trustable. The owner of this shop Nafis vai, he is a very good person\"";
             opacity: .03;
         }
         23.5%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This website is one of the best website for buying a product. It is very trustable. The owner of this shop Nafis vai, he is a very good person\"";
             opacity: .5;
         }
         25%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This website is one of the best website for buying a product. It is very trustable. The owner of this shop Nafis vai, he is a very good person\"";
             opacity: 1;
         }
         35%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This website is one of the best website for buying a product. It is very trustable. The owner of this shop Nafis vai, he is a very good person\"";
             opacity: 1;
         }
         37.5%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This website is one of the best website for buying a product. It is very trustable. The owner of this shop Nafis vai, he is a very good person\"";
             opacity: .5;
         }
         40%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This website is one of the best website for buying a product. It is very trustable. The owner of this shop Nafis vai, he is a very good person\"";
             opacity: .03;
         }
         41%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This shop provide one of the best service that i have ever get...In a single word it's the best\"";
             opacity: .03;
         }
         43.5%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This shop provide one of the best service that i have ever get...In a single word it's the best\"";
             opacity: .5;
         }
         45%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This shop provide one of the best service that i have ever get...In a single word it's the best\"";
             opacity: 1;
         }
         55%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This shop provide one of the best service that i have ever get...In a single word it's the best\"";
             opacity: 1;
         }
         57.5%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This shop provide one of the best service that i have ever get...In a single word it's the best\"";
             opacity: .5;
         }
         60%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This shop provide one of the best service that i have ever get...In a single word it's the best\"";
             opacity: .03;
         }
         61%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This website is one of the best website for buying a product. It is very trustable. The owner of this shop Nafis vai, he is a very good person\"";
             opacity: .03;
         }
         63.5%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This website is one of the best website for buying a product. It is very trustable. The owner of this shop Nafis vai, he is a very good person\"";
             opacity: .5;
         }
         65%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This website is one of the best website for buying a product. It is very trustable. The owner of this shop Nafis vai, he is a very good person\"";
             opacity: 1;
         }
         75%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This website is one of the best website for buying a product. It is very trustable. The owner of this shop Nafis vai, he is a very good person\"";
             opacity: 1;
         }
         77.5%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This website is one of the best website for buying a product. It is very trustable. The owner of this shop Nafis vai, he is a very good person\"";
             opacity: .5;
         }
         80%{
-            content: "\"The devices of this shop are one of the most better experienced devices that I have ever used. Quality is their sowrd and behavior is the sharpness, customer satisfaction is the main concept of them.\"";
+            content: "\"This website is one of the best website for buying a product. It is very trustable. The owner of this shop Nafis vai, he is a very good person\"";
             opacity: .03;
         }
         81%{
